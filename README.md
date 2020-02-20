@@ -14,3 +14,4 @@ In this project I`m using SSR (server side rendering) using NextJS.
 - Statics content, such as images, third-part libs, etc. (Node will import it, not React);
 - Working with dynamic route params and another fun stuffs by NextJS re-configuration ([see here](./server.js));
 - Applying stylization. Babel will transpile our JS into a friendly manner to browser or Node.
+- Using root-import in order to import files using `~/some/page` instead `../../../some/page` (configuring [babel file](./babelrc) and [making VSCode to understand it](./jsconfig.json)).

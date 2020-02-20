@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "babel-plugin-root-import": "^6.4.1",
     "babel-plugin-styled-components": "^1.10.7",
     "next": "^9.2.2",
     "next-routes": "^1.4.2",

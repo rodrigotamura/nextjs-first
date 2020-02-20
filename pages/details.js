@@ -1,12 +1,12 @@
 import React from 'react';
 import axios from 'axios';
-import withAnalytics from '../src/hocs/withAnalytics';
+import withAnalytics from '~/hocs/withAnalytics';
 import Link from 'next/link';
 
 const Details = ({user}) => (
     <div>
         <h1>{ user.login }</h1>
-        <p><img src={ user.avatar_url } width="200" /></p>
+        <img src={ user.avatar_url } width="200" />
         <Link href='/users'>
             <a>Back to Users</a>
         </Link>
