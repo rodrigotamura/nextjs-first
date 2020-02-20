@@ -14,7 +14,7 @@ const Users = ({ users }) => (
         <ul>
             {
                 users.map(user => (
-                <li key={user.id}>{user.login}</li>
+                <li key={user.id}><Link href={`/users/${user.login}`}><a>{user.login}</a></Link></li>
             )) }
         </ul>
         <Link href="/">
@@ -31,7 +31,7 @@ Users.getInitialProps = async () =>{
 
     // at the first load this console.log will appear at the server side
     // if this page is loaded from a link, console.log will throw it at the client side
-    console.log(response.data);
+     //console.log(response.data);
 
     return { users: response.data };
 }
