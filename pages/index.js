@@ -2,7 +2,14 @@ import React from 'react';
 import Link from "next/link";
 import Head from "next/head";
 
+import styled from 'styled-components';
+
 import withAnalytics from '../src/hocs/withAnalytics';
+
+const Title = styled.h1`
+    color: Green;
+    font-size: 40px;
+`;
 
 const Home = () => (
     <div>
@@ -10,7 +17,7 @@ const Home = () => (
             <title>Home</title>
         </Head>
 
-        <h1>Pagina SSR</h1>
+        <Title>Pagina SSR</Title>
 
         <p>Static content:</p>
         {/* it is very important to put the files within /public folder */}
