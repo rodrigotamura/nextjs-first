@@ -21,4 +21,4 @@ In this project I`m using SSR (server side rendering) with NextJS.
 1. `git clone git@github.com:rodrigotamura/nextjs-first.git`
 2. `cd nextjs-first`
 3. `npm install`
-4. `npm dev`
+4. `npm run dev`
