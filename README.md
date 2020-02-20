@@ -1,6 +1,6 @@
 # About
 
-In this project I`m using SSR (server side rendering) using NextJS.
+In this project I`m using SSR (server side rendering) with NextJS.
 
 ## What we've learned?
 
