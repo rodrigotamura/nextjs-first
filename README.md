@@ -15,3 +15,10 @@ In this project I`m using SSR (server side rendering) with NextJS.
 - Working with dynamic route params and another fun stuffs by NextJS re-configuration ([see here](./server.js));
 - Applying stylization. Babel will transpile our JS into a friendly manner to browser or Node.
 - Using root-import in order to import files using `~/some/page` instead `../../../some/page` (configuring [babel file](./babelrc) and [making VSCode to understand it](./jsconfig.json)).
+  
+## Want to test it, no prob!
+
+1. `git clone git@github.com:rodrigotamura/nextjs-first.git`
+2. `cd nextjs-first`
+3. `npm install`
+4. `npm dev`
